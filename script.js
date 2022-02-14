@@ -29,6 +29,7 @@ botonDesencriptar.addEventListener("click", function(event){
 	texto = desencriptar(texto);
 	document.getElementById("msg").value = texto;
 });
+
 botonCopiar.addEventListener("click",function(event){
     event.preventDefault();
     var texto = document.querySelector("#msg");
